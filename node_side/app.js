@@ -9,7 +9,7 @@ const subcategory = require('./routes/subcategory')
 const app = express();
 const port = process.env.PORT || 5000;
 const corsOptions = {
-    origin: "https://chennaisunday-pr-ieee.onrender.com/" 
+    origin: "https://chennaisunday-pr-ieee.onrender.com" 
 }
 connectDB();
 app.use(cors(corsOptions))
